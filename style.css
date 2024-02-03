@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    color: white;
+}
+header{
+    width: 100%;
+    height: 550px;
+}
+header img{
+    width: 100%;
+    height: 100%;
+}
+section{
+    background-image: url(img/bg_bottom.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: calc(100vh - 550px);
+}
+.lien{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+.extrait{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.div2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.box{
+    width: 300px;
+    height: 100px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.left .box:hover{
+    transform: translateY(-10px);
+    box-shadow: 5px 5px 10px #000;
+}
+.right .box:hover{
+    transform: translateY(-10px);
+    box-shadow: 5px 5px 10px #fff;
+}
+.box i{
+    font-size: 50px;
+}
+.box p{ 
+    font-size: 50px;
+}
+.extrait .text{
+    transform: translateX(-60px);
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text p{
+    color: #808080;
+}
+.text :nth-child(1){
+    transform: translateX(-100px);
+    color: #AE2CEB;
+}
+.text :nth-child(2){
+    transform: translateX(-20px);
+    color: #808080;
+}
+.text :nth-child(3){
+    transform: translateX(100px);
+    color: #FF0000;
+}
+video{
+    height: 282px;
+    width: 499px;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    position: absolute;
+    font-size: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: -webkit-linear-gradient(0deg, rgba(175,44,236,1) 0%, rgba(255,0,0,1) 100%);
+    -webkit-background-clip: text;   
+    -webkit-text-fill-color: transparent;
+}
+.twitch{
+    background: #9147FF;
+}
+.twiter{
+    background: #1BA0EC;
+}
+.youtube{
+    background: #FE0000;
+}
+.discord{
+    background: #5764F1;
+}

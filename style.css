@@ -118,11 +118,3 @@ h1{
 .discord{
     background: #5764F1;
 }
-
-@media (min-height: 700px){
-
-    .youtube{
-        background: black;
-    }
-
-}

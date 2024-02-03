@@ -6,7 +6,7 @@
 }
 header{
     width: 100%;
-    height: 550px;
+    height: 40%;
 }
 header img{
     width: 100%;
@@ -117,4 +117,12 @@ h1{
 }
 .discord{
     background: #5764F1;
+}
+
+@media (min-height: 700px){
+
+    .youtube{
+        background: black;
+    }
+
 }
